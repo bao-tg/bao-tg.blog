@@ -6,12 +6,7 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [],
-  footer: Component.Footer({
-    links: {
-      GitHub: "https://github.com/bao-tg",
-      "My email": "21bao.tg@vinuni.edu.vn",
-    },
-  }),
+  footer: Component.Footer(),
 }
 
 // components for pages that display a single page (e.g. a single note)
@@ -21,18 +16,21 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
+    
   ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    Component.Darkmode(),
+    // 
     Component.DesktopOnly(Component.Explorer()),
+    Component.TableOfContents(),
+    Component.Backlinks(),    
   ],
   right: [
-    Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
+    // Component.Graph(),
+    Component.Darkmode(),
+    // Component.DesktopOnly(Component.TableOfContents()),
   ],
 }
 

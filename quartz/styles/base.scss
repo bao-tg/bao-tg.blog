@@ -182,7 +182,7 @@ a {
       gap: 2rem;
       top: 0;
       box-sizing: border-box;
-      padding: $topSpacing 2rem 2rem 2rem;
+      padding: 2rem 2rem 2rem;
       display: flex;
       height: 100vh;
       position: sticky;
@@ -190,6 +190,7 @@ a {
 
     & .sidebar.left {
       z-index: 1;
+      margin-right: 0rem;
       grid-area: grid-sidebar-left;
       flex-direction: column;
       @media all and ($mobile) {
@@ -205,9 +206,9 @@ a {
     }
 
     & .sidebar.right {
+      margin-top: 0;
       grid-area: grid-sidebar-right;
       margin-right: 0;
-      flex-direction: column;
       @media all and ($mobile) {
         margin-left: inherit;
         margin-right: inherit;
@@ -233,7 +234,7 @@ a {
 
     & .page-header {
       grid-area: grid-header;
-      margin: $topSpacing 0 0 0;
+      margin: 0 0 0;
       @media all and ($mobile) {
         margin-top: 0;
         padding: 0;
