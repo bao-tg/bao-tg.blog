@@ -2,5 +2,11 @@
 title: Welcome to bao-tg's blog.
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+# About me
+
+I'm currently a senior student in Computer Science at VinUniversity. My concentrations are Artificial Intelligence and Data Science. 
+
+This blog aims to serve as a universal place for me to write anythings :D, the contents can be varied from the technical reports to the review of the book I recently read, the learning tips that I drawn from the university,.etc.
+
+
+
