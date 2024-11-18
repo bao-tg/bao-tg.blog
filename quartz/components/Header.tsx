@@ -9,7 +9,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 0 0 0;
+  margin: 1rem 0 0; /* Added top margin */
   gap: 0;
 }
 
