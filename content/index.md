@@ -1,5 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Welcome to bao-tg's blog.
 ---
 
 This is a blank Quartz installation.
